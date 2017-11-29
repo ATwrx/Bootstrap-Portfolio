@@ -11,29 +11,18 @@ html, body {
   font-family: 'Arial', 'Helvetica Nue', Helvetica, sans-serif;
 }
 
-header {
-  margin-bottom: 25px;
-}
-
-/*
- Heading size
-*/
-
-
-
 h1, h2, h3, h4 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
   color: #4aaaa5;
   font-weight: bold;
   border-bottom: 3px solid lightgrey;
-  
+
 }
  h2 {
-  /* font-size: 1.6em; */
   border-bottom: 3px solid lightgrey;
   margin-bottom: 20px;
   padding-bottom: 5px;
-} 
+}
 
 
 
@@ -47,9 +36,9 @@ Index Page
   height: 50px;
 }
 #my-pic {
-  width: 30%;
-  height: 30%;
-  /* margin-right: 35px; */
+  width: 25%;
+  height: 25%;
+  margin-right: 35px;
 
 }
 
@@ -95,22 +84,12 @@ Portfolio
 Links on the Side
 */
 .sidebar {
-  float: right;
-  /* width: 260px;
-  height: 140px; */
   background: white;
   border: 3px solid lightgray;
-  /*margin: 10px 10px;*/
   margin-top: 25px;
+  
 }
-.sidebar h3 {
-  text-align: center;
- 
-  padding-bottom: 5px;
-  /* margin-left:20px;  */
-  border-bottom: 3px solid lightgrey;
-  /* width: 220px; */
-}
+
 .sidebar a {
   display: inline-block;
 }
